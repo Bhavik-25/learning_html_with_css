@@ -1,0 +1,59 @@
+.hall{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    background-color: cadetblue;
+    top: 100px;
+    left: 200px;
+    border: 2px solid black;
+    
+
+}
+#Tv{
+position: absolute;
+background-color: black;
+color: aliceblue;
+height: 20px;
+width: 100px;
+text-align: center;
+top: 10px;
+left: 200px;
+border-radius: 3px;
+
+}
+#sofa{
+position: absolute;
+background-color: rgb(218, 63, 11);
+color: aliceblue;
+height: 50px;
+width: 250px;
+text-align: center;
+top: 180px;
+left: 120px;
+line-height: 50px;
+border-radius: 3px;
+}
+#fridge{
+position: absolute;
+background-color: rgb(213, 216, 145);
+color: rgb(18, 18, 18);
+height:80px;
+width: 100px;
+text-align: center;
+bottom: 10px;
+right: 10px;
+line-height: 80px;
+border-radius: 3px;
+
+}
+#tea{
+position: absolute;
+background-color: rgb(222, 146, 120);
+color: aliceblue;
+height: 40px;
+width: 70px;
+text-align: center;
+top: 120px;
+left: 230px;
+border-radius: 3px;
+}
