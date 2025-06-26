@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 30px 10px;
+  background-color: #8B4513;
+  color: white;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 40px;
+}
+
+.box {
+  background-color: rgb(204, 130, 130);
+  border-radius: 15px;
+  height: 220px;
+  width: 220px;
+  color: white;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  transition: transform 2s ease, background-color 2s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.box h2 {
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+
+.box p {
+  font-size: 0.95em;
+}
+
+/* Hover Effects */
+.box1:hover {
+  transform: translate(125px, 125px);
+}
+
+.box2:hover {
+  transform: translateX(125px);
+}
+
+.box3:hover {
+  transform: translateY(125px);
+}
+
+.box4:hover {
+  transform: rotate(180deg);
+  background-color: cadetblue;
+}
+
+.box5:hover {
+  transform: skewX(30deg);
+}
+
+.box6:hover {
+  transform: scale(1.8);
+}
+
+.box7:hover {
+  transform: rotate(90deg) scale(1.2) translateY(50px);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #8B4513;
+  color: white;
+}

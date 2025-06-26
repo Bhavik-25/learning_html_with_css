@@ -1,0 +1,59 @@
+.hover_effect:hover{
+    color: rgb(23, 77, 147);
+    background-color: rgb(211, 211, 222);
+    font-size: 60px;
+    text-shadow: 4px 3px 8px rgb(63, 102, 152);
+
+}
+.hover_effect{
+    color: rgb(90, 87, 130);
+}
+button{
+    background-color: rgb(25, 80, 181);
+    color: beige;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 5px;
+cursor: pointer;
+}
+button:active{
+    background-color: rgb(107, 139, 203);
+    color: beige;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+a:visited{
+    color: rgb(190, 56, 56);
+}
+input:focus{
+    background-color: rgb(144, 182, 225);
+}
+ul{
+    width: 300px;
+    padding: 10px;
+list-style-type: none;
+text-align: center;
+}
+li{
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+color: rgb(0, 0, 0);
+}
+li:nth-child(odd){
+    background-color:rgb(146,210,249)
+}
+li:nth-child(even){
+    background-color: rgb(179,205,224);
+}
+input[type="text"]{
+    border: 5px solid rgb(51, 59, 118);
+    padding: 15px;
+
+}
+input[placeholder]{
+    background-color: rgb(145, 192, 221);
+    color: rgb(255, 255, 255);
+}
